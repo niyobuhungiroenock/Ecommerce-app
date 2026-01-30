@@ -12,13 +12,13 @@ const Navbar = () => {
 
       <div className="flex gap-6">
         <NavLink to="/" className={linkClass} end>
-          Home
+          My Home
         </NavLink>
         <NavLink to="/products" className={linkClass}>
-          Products
+          Product
         </NavLink>
         <NavLink to="/cart" className={linkClass}>
-          Cart
+          ADD CART
         </NavLink>
       </div>
     </nav>
